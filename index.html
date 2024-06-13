@@ -1,1 +1,44 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olá Mundo!!!</title>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff99cc; /* rosa */
+}
+
+.container {
+    text-align: center;
+}
+
+#helloText {
+    font-size: 4em; /* tamanho grande */
+    color: #ffff66; /* amarelo */
+    animation: bounce 2s infinite alternate; /* animação */
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 id="helloText">Olá Mundo!!!</h1>
+</div>
+</body>
+</html>
